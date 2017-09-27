@@ -3,7 +3,7 @@
 
 ## Getting started
 
-`$ npm install react-native-wave-animation --save`
+`$ npm install https://github.com/CJELLYS/react-native-wave-rc-animation.git --save`
 
 ### Mostly automatic installation
 
@@ -21,7 +21,7 @@
 
 #### Android
 
-1. Open up `android/app/src/main/java/[...]/MainActivity.java`
+1. Open up `android/app/src/main/java/[...]/ManApplication `
   - Add `import cn.staynoob.WaveAnimationPackage;` to the imports at the top of the file
   - Add `new WaveAnimationPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
