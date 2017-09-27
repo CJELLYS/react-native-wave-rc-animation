@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { View,Text} from 'react-native';
+import { View} from 'react-native';
 import NativeWaveAnimation from './NativeWaveAnimation';
 
 class WaveAnimationView extends React.Component {
@@ -8,7 +8,7 @@ class WaveAnimationView extends React.Component {
         ...View.propTypes,
         percent: PropTypes.number,
         frontWaveColor: PropTypes.string,
-        behindWaveColor: PropTypes.string,
+        behindWaveColor: PropTypes.string
     }
 
     render() {
@@ -18,6 +18,8 @@ class WaveAnimationView extends React.Component {
             percent,
             frontWaveColor,
             behindWaveColor,
+            right,
+            bottom,
         } = this.props;
 
         return (
@@ -25,16 +27,15 @@ class WaveAnimationView extends React.Component {
                 <NativeWaveAnimation
                     {...{percent, frontWaveColor, behindWaveColor}}
                     style={{
-                        width: style.width,
-                        height: style.height,
-                        position: 'absolute',
-                        top: 0,
-                        left: 0,
-                        bottom: 0,
-                        right: 0,
+                        width: style.width-4,
+                        height: style.height-4,
+                        position: 'absolute',   
+                        right: right,
+                        bottom: bottom
                     }}
                 >
                 </NativeWaveAnimation>
+               
             </View>
         )
     }

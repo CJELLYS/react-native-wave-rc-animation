@@ -131,9 +131,11 @@ public class WaveView extends View {
      * @param waterLevelRatio Should be 0 ~ 1. Default to be 0.5.
      *                        Ratio of water level to WaveView height.
      */
-    public void setWaterLevelRatio(float waterLevelRatio) {
-        if (mWaterLevelRatio != waterLevelRatio) {
+    public void setWaterLevelRatio(float waterLevelRatio,int index) {
+
+        if (mWaterLevelRatio != waterLevelRatio && index == 1) {
             mWaterLevelRatio = waterLevelRatio;
+            index ++;
             invalidate();
         }
     }

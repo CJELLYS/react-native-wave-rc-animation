@@ -1,6 +1,7 @@
 package cn.staynoob.waveanimation;
 
 import android.graphics.Color;
+import android.util.Log;
 
 import com.facebook.react.uimanager.SimpleViewManager;
 import com.facebook.react.uimanager.ThemedReactContext;
@@ -40,9 +41,9 @@ public class WaveAnimationViewManager extends SimpleViewManager<WaveView> {
         view.setBehindWaveColor(Color.parseColor(color));
     }
 
-    @ReactProp(name = "percent", defaultFloat = 0.5f)
+    @ReactProp(name = "percent")
     public void setPercent(WaveView view, float percent) {
-        view.setWaterLevelRatio(percent);
+        view.setWaterLevelRatio(percent,1);
     }
 
 }
