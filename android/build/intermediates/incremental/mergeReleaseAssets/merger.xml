@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/caoguodong/Desktop/swipeUpDownScrollView/node_modules/react-native-wave-animation/android/src/main/assets"/><source path="/Users/caoguodong/Desktop/swipeUpDownScrollView/node_modules/react-native-wave-animation/android/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Users/caoguodong/Desktop/swipeUpDownScrollView/node_modules/react-native-wave-animation/android/src/release/assets"/></dataSet></merger>
