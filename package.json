@@ -20,39 +20,59 @@
         }
       },
       "/Users/caoguodong/Desktop/swipeUpDownScrollView"
+    ],
+    [
+      {
+        "raw": "react-native-wave-animation@git+https://github.com/CJELLYS/react-native-wave-rc-animation.git",
+        "scope": null,
+        "escapedName": "react-native-wave-animation",
+        "name": "react-native-wave-animation",
+        "rawSpec": "git+https://github.com/CJELLYS/react-native-wave-rc-animation.git",
+        "spec": "git+https://github.com/CJELLYS/react-native-wave-rc-animation.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:CJELLYS/react-native-wave-rc-animation.git",
+          "sshUrl": "git+ssh://git@github.com/CJELLYS/react-native-wave-rc-animation.git",
+          "httpsUrl": "git+https://github.com/CJELLYS/react-native-wave-rc-animation.git",
+          "gitUrl": "git://github.com/CJELLYS/react-native-wave-rc-animation.git",
+          "shortcut": "github:CJELLYS/react-native-wave-rc-animation",
+          "directUrl": "https://raw.githubusercontent.com/CJELLYS/react-native-wave-rc-animation/master/package.json"
+        }
+      },
+      "/Users/caoguodong/Desktop/swipeUpDownScrollView"
     ]
   ],
-  "_from": "git+https://github.com/noob9527/react-native-wave-animation.git",
+  "_from": "git+https://github.com/CJELLYS/react-native-wave-rc-animation.git",
   "_id": "react-native-wave-animation@1.0.0",
   "_inCache": true,
   "_location": "/react-native-wave-animation",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "https://github.com/noob9527/react-native-wave-animation.git",
+    "raw": "react-native-wave-animation@git+https://github.com/CJELLYS/react-native-wave-rc-animation.git",
     "scope": null,
-    "escapedName": null,
-    "name": null,
-    "rawSpec": "https://github.com/noob9527/react-native-wave-animation.git",
-    "spec": "git+https://github.com/noob9527/react-native-wave-animation.git",
+    "escapedName": "react-native-wave-animation",
+    "name": "react-native-wave-animation",
+    "rawSpec": "git+https://github.com/CJELLYS/react-native-wave-rc-animation.git",
+    "spec": "git+https://github.com/CJELLYS/react-native-wave-rc-animation.git",
     "type": "hosted",
     "hosted": {
       "type": "github",
-      "ssh": "git@github.com:noob9527/react-native-wave-animation.git",
-      "sshUrl": "git+ssh://git@github.com/noob9527/react-native-wave-animation.git",
-      "httpsUrl": "git+https://github.com/noob9527/react-native-wave-animation.git",
-      "gitUrl": "git://github.com/noob9527/react-native-wave-animation.git",
-      "shortcut": "github:noob9527/react-native-wave-animation",
-      "directUrl": "https://raw.githubusercontent.com/noob9527/react-native-wave-animation/master/package.json"
+      "ssh": "git@github.com:CJELLYS/react-native-wave-rc-animation.git",
+      "sshUrl": "git+ssh://git@github.com/CJELLYS/react-native-wave-rc-animation.git",
+      "httpsUrl": "git+https://github.com/CJELLYS/react-native-wave-rc-animation.git",
+      "gitUrl": "git://github.com/CJELLYS/react-native-wave-rc-animation.git",
+      "shortcut": "github:CJELLYS/react-native-wave-rc-animation",
+      "directUrl": "https://raw.githubusercontent.com/CJELLYS/react-native-wave-rc-animation/master/package.json"
     }
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/noob9527/react-native-wave-animation.git#d482cea90b456e2637992f91afd819582848329c",
-  "_shasum": "86048208944e45f474839a664aab3634911162ad",
+  "_resolved": "git+https://github.com/CJELLYS/react-native-wave-rc-animation.git#5ca6514dbf01f54378ed1815271d89c69862cc98",
+  "_shasum": "ef40885eb321149c86eadddd3a7c7c566c17c30a",
   "_shrinkwrap": null,
-  "_spec": "https://github.com/noob9527/react-native-wave-animation.git",
+  "_spec": "react-native-wave-animation@git+https://github.com/CJELLYS/react-native-wave-rc-animation.git",
   "_where": "/Users/caoguodong/Desktop/swipeUpDownScrollView",
   "author": {
     "name": "xy",

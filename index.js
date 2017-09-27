@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { View} from 'react-native';
+import { View,Text} from 'react-native';
 import NativeWaveAnimation from './NativeWaveAnimation';
 
 class WaveAnimationView extends React.Component {
@@ -33,8 +33,8 @@ class WaveAnimationView extends React.Component {
                         bottom: 0,
                         right: 0,
                     }}
-                ></NativeWaveAnimation>
-                {children}
+                >
+                </NativeWaveAnimation>
             </View>
         )
     }

@@ -24,7 +24,7 @@ public class WaveAnimationViewManager extends SimpleViewManager<WaveView> {
         WaveView mWaveView = new WaveView(reactContext);
         WaveHelper mWaveHelper = new WaveHelper(mWaveView);
 
-        mWaveView.setShapeType(WaveView.ShapeType.SQUARE);
+        mWaveView.setShapeType(WaveView.ShapeType.CIRCLE);
         mWaveHelper.start();
 
         return mWaveView;
